@@ -1,0 +1,27 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header--left-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: hsl(0deg, 0%, 75%);
+}
+header .header--right-side {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: hsl(0deg, 0%, 75%);
+}
+header .header--right-side .header--sign-up {
+  width: 100px;
+  height: 40px;
+  background-color: hsl(180deg, 66%, 49%);
+  border-radius: 25px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}/*# sourceMappingURL=Header.css.map */
