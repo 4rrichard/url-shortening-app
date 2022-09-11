@@ -1,0 +1,131 @@
+.input-section {
+  .input-container {
+    position: relative;
+    width: 100%;
+
+    margin-top: 40px;
+
+    display: flex;
+    align-items: center;
+
+    background-color: hsl(257, 27%, 26%);
+    background-image: url("/public/images/bg-shorten-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    .input-field {
+      height: 50px;
+      width: auto;
+
+      margin: 40px 20px 40px 40px;
+
+      background-color: white;
+      border-radius: 10px;
+
+      flex: 1;
+    }
+
+    .input-field::placeholder {
+      font-family: "Poppins", sans-serif;
+      color: hsl(0deg, 0%, 75%);
+      font-size: 16px;
+    }
+
+    .input-field[type="text"] {
+      padding-left: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .input-field-error {
+      border: 3px solid hsl(0, 81%, 72%);
+      height: 50px;
+      width: auto;
+
+      margin: 40px 20px 40px 40px;
+
+      background-color: white;
+      border-radius: 10px;
+
+      flex: 1;
+    }
+    .input-field-error::placeholder {
+      font-family: "Poppins", sans-serif;
+      color: hsl(0, 81%, 72%);
+      font-size: 16px;
+    }
+    .input-field-error[type="text"] {
+      padding-left: 20px;
+      font-family: "Poppins", sans-serif;
+    }
+
+    .error-message {
+      position: absolute;
+      bottom: 17px;
+      left: 40px;
+
+      font-weight: normal;
+      font-style: italic;
+      color: hsl(0, 81%, 72%);
+    }
+    .input-submit-btn {
+      width: 150px;
+      height: 50px;
+
+      margin-right: 40px;
+
+      background-color: hsl(180, 66%, 49%);
+      border-radius: 10px;
+
+      color: white;
+
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+    }
+    .input-submit-btn:hover {
+      background-color: hsl(180, 51%, 75%);
+    }
+  }
+
+  .input-results {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 30px;
+    padding: 13px;
+    border-radius: 10px;
+
+    font-size: 16px;
+
+    background-color: white;
+    .original-link {
+      font-weight: 500;
+    }
+    .results-right-side {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .shortened-link {
+        font-weight: 500;
+        color: hsl(180, 66%, 49%);
+      }
+      .copy-to-clipboard {
+        width: 100px;
+        height: 40px;
+
+        background-color: hsl(180, 66%, 49%);
+        border-radius: 8px;
+
+        color: white;
+
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+      }
+      .copy-to-clipboard:hover {
+        background-color: hsl(180, 51%, 75%);
+      }
+    }
+  }
+}

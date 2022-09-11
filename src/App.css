@@ -1,6 +1,18 @@
-body {
+.all-section {
   height: auto;
   margin: 40px 150px;
+}
+.main-background {
+  position: absolute;
 
-  /* font-family: "Poppins", sans-serif; */
+  z-index: -1;
+
+  top: 727px;
+  left: 0;
+  right: 0;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(233, 231, 231, 0.658);
 }

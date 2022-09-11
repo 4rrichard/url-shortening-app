@@ -24,4 +24,7 @@ header .header--right-side .header--sign-up {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 16px;
+}
+header .header--right-side .header--sign-up:hover {
+  background-color: hsl(180deg, 51%, 75%);
 }/*# sourceMappingURL=Header.css.map */

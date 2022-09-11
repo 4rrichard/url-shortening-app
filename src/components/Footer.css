@@ -1,0 +1,63 @@
+.footer-section {
+  font-family: "Poppins", sans-serif;
+}
+.footer-section .boost-your-link {
+  width: 100vw;
+  margin-left: -150px;
+  margin-top: 100px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(257deg, 27%, 26%);
+  background-image: url("/public/images/bg-boost-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.footer-section .boost-your-link .boost-your-link--title {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.footer-section .boost-your-link .footer--get-started-btn {
+  width: 150px;
+  height: 50px;
+  background-color: hsl(180deg, 66%, 49%);
+  border-radius: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+}
+.footer-section .footer-bottom {
+  width: 100vw;
+  height: auto;
+  margin-left: -150px;
+  margin-bottom: -40px;
+  padding: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  background-color: hsl(260deg, 8%, 14%);
+  color: white;
+}
+.footer-section .footer-bottom .footer--features-title,
+.footer-section .footer-bottom .footer--resources-title,
+.footer-section .footer-bottom .footer--company-title {
+  margin-bottom: 20px;
+}
+.footer-section .footer-bottom .footer--features-element,
+.footer-section .footer-bottom .footer--resources-element,
+.footer-section .footer-bottom .footer--company-element {
+  font-weight: 500;
+}
+.footer-section .footer-bottom .social-icons {
+  display: flex;
+  gap: 20px;
+}
+.footer-section .footer-bottom .social-icons .social-icon {
+  cursor: pointer;
+}
+.footer-section .footer-bottom .social-icons .social-icon:hover {
+  filter: invert(54%) sepia(83%) saturate(383%) hue-rotate(131deg) brightness(125%) contrast(92%);
+}/*# sourceMappingURL=Footer.css.map */

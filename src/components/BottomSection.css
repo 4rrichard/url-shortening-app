@@ -1,0 +1,105 @@
+.bottom-section {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+.bottom-section .bottom-section--title-container {
+  width: 460px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom-section .bottom-section--title-container .bottom-section--title {
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.bottom-section .bottom-section--title-container .bottom-section--subtitle {
+  color: hsl(0deg, 0%, 50%);
+}
+.bottom-section .bottom-section--box-container {
+  margin-top: 60px;
+  display: flex;
+  gap: 30px;
+}
+.bottom-section .bottom-section--box-container .bottom-section--left-box,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box,
+.bottom-section .bottom-section--box-container .bottom-section--right-box {
+  width: 370px;
+  height: 250px;
+  position: relative;
+  padding: 60px 30px 30px;
+  border-radius: 8px;
+  background-color: white;
+}
+.bottom-section .bottom-section--box-container .bottom-section--left-box .left-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .middle-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .right-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .left-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .middle-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .right-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .left-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .middle-box--image-container,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .right-box--image-container {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  top: -14%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  background-color: hsl(257deg, 27%, 26%);
+}
+.bottom-section .bottom-section--box-container .bottom-section--left-box .left-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .left-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .left-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .middle-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .middle-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .middle-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .right-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .right-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .right-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .left-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .left-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .left-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .middle-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .middle-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .middle-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .right-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .right-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .right-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .left-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .left-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .left-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .middle-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .middle-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .middle-box--image-container .illustration-fully-customizable,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .right-box--image-container .illustration-brand-recognition,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .right-box--image-container .illustration-detailed-records,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .right-box--image-container .illustration-fully-customizable {
+  height: 37px;
+}
+.bottom-section .bottom-section--box-container .bottom-section--left-box .left-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .middle-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--left-box .right-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .left-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .middle-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--middle-box .right-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .left-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .middle-box--pharagraph,
+.bottom-section .bottom-section--box-container .bottom-section--right-box .right-box--pharagraph {
+  margin-top: 15px;
+  color: hsl(0deg, 0%, 50%);
+}
+.bottom-section .bottom-section--box-container .bottom-section--middle-box {
+  margin-top: 50px;
+}
+.bottom-section .bottom-section--box-container .bottom-section--right-box {
+  margin-top: 100px;
+}/*# sourceMappingURL=BottomSection.css.map */

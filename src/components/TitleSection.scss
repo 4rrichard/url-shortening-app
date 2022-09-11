@@ -1,7 +1,8 @@
 .title-section {
   display: flex;
+  justify-content: space-between;
   margin-top: 60px;
-  overflow: hidden;
+
   .title-section--left-side {
     width: 45%;
     margin-top: 60px;
@@ -34,9 +35,11 @@
       font-size: 17px;
       letter-spacing: 0.08em;
     }
+    .title-section--get-started-btn:hover {
+      background-color: hsl(180, 51%, 75%);
+    }
   }
   .illustration-working {
-    position: absolute;
-    right: -8%;
+    margin-right: -260px;
   }
 }
