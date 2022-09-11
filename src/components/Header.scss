@@ -8,12 +8,25 @@ header {
     align-items: center;
     gap: 30px;
     color: hsl(0, 0%, 75%);
+    .header--element {
+      cursor: pointer;
+    }
+    .header--element:hover {
+      color: hsl(260, 8%, 14%);
+    }
   }
+
   .header--right-side {
     display: flex;
     align-items: center;
     gap: 30px;
     color: hsl(0, 0%, 75%);
+    .header--element {
+      cursor: pointer;
+    }
+    .header--element:hover {
+      color: hsl(260, 8%, 14%);
+    }
     .header--sign-up {
       width: 100px;
       height: 40px;

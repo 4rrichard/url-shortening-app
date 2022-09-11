@@ -2,6 +2,10 @@ import React from "react";
 import "./Footer.css";
 
 function Footer() {
+  const scrollUp = () => {
+    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+  };
+
   return (
     <section className="footer-section">
       <div className="boost-your-link">
@@ -9,7 +13,12 @@ function Footer() {
         <button className="footer--get-started-btn">Get Started</button>
       </div>
       <div className="footer-bottom">
-        <img src="images\logo-white.svg" alt="shortly-white-logo" />
+        <img
+          src="images\logo-white.svg"
+          alt="shortly-white-logo"
+          className="shortly-white-logo"
+          onClick={scrollUp}
+        />
         <div className="footer--features">
           <h3 className="footer--features-title">Features</h3>
           <p className="footer--features-element">Link shortening</p>

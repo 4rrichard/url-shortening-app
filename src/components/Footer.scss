@@ -34,6 +34,9 @@
       font-weight: 700;
       font-size: 17px;
     }
+    .footer--get-started-btn:hover {
+      background-color: hsl(180, 51%, 75%);
+    }
   }
   .footer-bottom {
     width: 100vw;
@@ -49,6 +52,13 @@
 
     background-color: hsl(260, 8%, 14%);
     color: white;
+    .shortly-white-logo {
+      cursor: pointer;
+    }
+    .shortly-white-logo:hover {
+      filter: invert(54%) sepia(83%) saturate(383%) hue-rotate(131deg)
+        brightness(125%) contrast(92%);
+    }
 
     .footer--features-title,
     .footer--resources-title,
@@ -59,6 +69,13 @@
     .footer--resources-element,
     .footer--company-element {
       font-weight: 500;
+      cursor: pointer;
+      padding-bottom: 10px;
+    }
+    .footer--features-element:hover,
+    .footer--resources-element:hover,
+    .footer--company-element:hover {
+      color: hsl(180, 66%, 49%);
     }
     .social-icons {
       display: flex;

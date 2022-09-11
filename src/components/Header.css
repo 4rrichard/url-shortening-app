@@ -9,11 +9,23 @@ header .header--left-side {
   gap: 30px;
   color: hsl(0deg, 0%, 75%);
 }
+header .header--left-side .header--element {
+  cursor: pointer;
+}
+header .header--left-side .header--element:hover {
+  color: hsl(260deg, 8%, 14%);
+}
 header .header--right-side {
   display: flex;
   align-items: center;
   gap: 30px;
   color: hsl(0deg, 0%, 75%);
+}
+header .header--right-side .header--element {
+  cursor: pointer;
+}
+header .header--right-side .header--element:hover {
+  color: hsl(260deg, 8%, 14%);
 }
 header .header--right-side .header--sign-up {
   width: 100px;
