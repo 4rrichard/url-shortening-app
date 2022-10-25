@@ -1,13 +1,13 @@
 # **Shortly:** a website for URL shortening
 
-## What I focused on:\
+## What I focused on:
 
-### React States\
+### React States
 
-### Conditional rendering\
+### Conditional rendering
 
-### Scroll to top on button click in Footer\
+### Scroll to top on button click in Footer
 
-### API call\
+### API call
 
 ### CSS
